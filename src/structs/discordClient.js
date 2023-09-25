@@ -15,7 +15,8 @@ module.exports = class extends Client {
 		 * @type {EmbedBuilder}
 		 */
 		this.embed = new EmbedBuilder().setColor("Blue")
+		this.config = require('./config');
 
-		this.login("MTE1NTgyMzYzOTA0NDgxNjkxNg.GMS3ln.SZJysTMEhSzWLKm5h1u2NEU48X2TmUa3c4Vdfg");
+		this.login(this.config.token);
 	}
 }
