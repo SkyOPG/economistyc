@@ -13,6 +13,6 @@ To use this bot in your own server, do the following steps:
 - go to the [discord dev dashboard](https://discord.com/developers/applications)
 - create a new application
 - go to the "bot" page
-- scroll down to the "Perviliged intents" and enable all 3 of them
+- scroll down to the "Privileged Gateway Intents" and enable all 3 of them
 - scroll up and click reset token (agree to whatever they say)
 and you're done!
